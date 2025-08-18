@@ -36,7 +36,7 @@ Datum=str(sys.argv[2])
 
 
 #### read whole file
-datei=open('input_data/'+filename,'r')
+datei=open('input_data/'+filename,'r', encoding='utf8', errors='ignore')
 array=datei.readlines()
 
 llstring1=20
